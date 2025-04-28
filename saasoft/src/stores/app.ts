@@ -20,6 +20,7 @@ export const useAppStore = defineStore("store", {
       },
     ],
   }),
+  persist: true,
   actions: {
     async createUser() {
       this.users.push({
